@@ -2,15 +2,6 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
-}
-
-.topcontainer {
-  background-color: #E4F9F5;
-  position: relative;
-  padding-top: 100px;
-}
-
-p {
   color: #40514E;
 }
 
@@ -31,6 +22,32 @@ h2 {
 h3 {
   font-family: 'Montserrat', sans-serif;
   color: #11999E;
+}
+
+hr {
+  height: 2px;
+  width: 5%;
+  border-style: dotted none none none;
+  border-width: 5px;
+  color: #EAF6F6;
+  margin: 100px auto;
+}
+
+a {
+  color: #11999E;
+  margin: 10px 20px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.topcontainer {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
 }
 
 .aspiring {
@@ -86,14 +103,6 @@ h3 {
   width: 25%;
 }
 
-hr {
-  height: 2px;
-  width: 5%;
-  border-style: dotted none none none;
-  border-width: 5px;
-  color: grey;
-}
-
 .contact-me {
   width: 50%;
   margin: 100px auto 100px auto;
@@ -111,7 +120,7 @@ hr {
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-  font-family: Arial;
+  font-family: 'Montserrat', sans-serif;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
@@ -130,16 +139,12 @@ hr {
 
 .bottom-container {
   background-color: #66BFBF;
-  padding: 30px;
+  padding: 40px 0 10px;
   line-height: 2;
-}
-
-a {
-  color: #11999E;
-  margin: 20px;
-  text-decoration: none;
 }
 
 .signature {
   color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
